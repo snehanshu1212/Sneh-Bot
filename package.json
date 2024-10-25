@@ -1,0 +1,16 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot with ticketing and music features",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "@discordjs/voice": "^0.15.0",
+    "ytdl-core": "^4.9.0",
+    "genius-lyrics-api": "^1.0.0",
+    "ffmpeg-static": "^4.4.0"
+  }
+}
